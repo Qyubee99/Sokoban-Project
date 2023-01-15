@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sokoban
 {
-    internal class Goal
+    struct Goal
     {
         public int X;
         public int Y;

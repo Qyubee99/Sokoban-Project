@@ -1,5 +1,4 @@
-﻿using Sokoban;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace Sokoban
 {
-    struct Player
+    struct Bomb
     {
-        public int Health;
         public int X;
         public int Y;
-        public Direction MoveDirection;
-        public int PushedBoxIndex;
     }
 }
